@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Familia no Verde - Rotina com Oracao</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#e8f5e9;padding:15px}
+.header{background:linear-gradient(135deg,#2e7d32,#66bb6a);color:white;padding:25px;border-radius:20px;text-align:center;margin-bottom:20px}
+.card{background:white;border-radius:16px;padding:18px;margin-bottom:14px;display:flex;gap:15px;box-shadow:0 3px 10px rgba(0,0,0,0.08);border-left:6px solid #66bb6a}
+.card.oracao{border-left-color:#ff9800;background:#fff8e1}
+.card .icon{font-size:32px;min-width:45px;text-align:center}
+.card .titulo{font-weight:bold;font-size:17px;color:#2e7d32}
+.card.oracao .titulo{color:#e65100}
+.card .sub{font-size:13px;color:#666;margin-top:3px}
+.horario{background:#2e7d32;color:white;padding:4px 10px;border-radius:20px;font-size:12px;display:inline-block;margin-top:4px}
+.card.oracao .horario{background:#ff9800}
+.versiculo{background:white;border-radius:16px;padding:20px;margin-top:20px;text-align:center;border:2px dashed #66bb6a}
+.versiculo p{font-style:italic;color:#2e7d32;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>🌿 Familia no Verde</h1>
+<p>Rotina da Familia do Daniel - Com Oracao 🙏</p>
+</div>
+
+<div class="card oracao">
+<div class="icon">🙏</div>
+<div>
+<div class="titulo">CAFE DA MANHA COM ORACAO ANTES 🙏</div>
+<div class="sub">Agradecer a Deus pelo novo dia</div>
+<span class="horario">6:30 - 7:00</span>
+</div>
+</div>
+
+<div class="card oracao">
+<div class="icon">🍛</div>
+<div>
+<div class="titulo">ALMOCO 11H COM ORACAO ANTES 🙏</div>
+<div class="sub">Reunir a familia e orar junto</div>
+<span class="horario">11:00</span>
+</div>
+</div>
+
+<div class="card">
+<div class="icon">💼</div>
+<div>
+<div class="titulo">TRABALHO 13H</div>
+<span class="horario">13:00</span>
+</div>
+</div>
+
+<div class="card oracao">
+<div class="icon">🍲</div>
+<div>
+<div class="titulo">JANTAR COM ORACAO ANTES 🙏</div>
+<span class="horario">18:30</span>
+</div>
+</div>
+
+<div class="card oracao">
+<div class="icon">🌙</div>
+<div>
+<div class="titulo">ORACAO FINAL ANTES DE DORMIR - IGUAL DANIEL 🌟</div>
+<div class="sub">Daniel 6:10 - Confiar e descansar em Deus</div>
+<span class="horario">21:00</span>
+</div>
+</div>
+
+<div class="versiculo">
+<p>"Daniel orava 3 vezes por dia de joelhos"<br>Daniel 6:10</p>
+</div>
+
+</body>
+</html>
